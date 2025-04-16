@@ -1,0 +1,30 @@
+{
+  "name": "yellow-sound-5212",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2025-04-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "noisy-fire-2542-d1",
+      "database_id": "8f8eeb6c-439e-4d2f-9a29-819bef7d2327"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "yellow-sound-5212-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
